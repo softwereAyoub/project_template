@@ -1,0 +1,63 @@
+.rib h2{
+    font-size: 46px;
+    font-weight: bold;
+    line-height: 1.2;
+    max-width: 716px;
+}
+.inputss{
+    display: flex;
+    gap: 25px;
+}
+.rib{
+    width: 1200px;
+    height: 391px;
+    color: white;
+    background-color: #0A2640;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    gap: 47px;
+  margin: 0 auto;
+  border-radius: 10px;
+  background-image: url("Ellipse\ 9.svg");
+  background-repeat: no-repeat;
+  background-position: top right;
+  margin-top: 86px;
+
+
+}
+.inputss input{
+width: 370px;
+height: 52px;
+border-radius: 240px;
+border: none;
+padding-left: 33px;
+font-size: 20px;
+font-weight: 400;
+color: black;
+}
+.inputss button{
+    width: 207px;
+    height: 52px;
+    font-weight: bold;
+    font-size: 20px;
+    color: #0A2640;
+    border-radius: 52px;
+    background-color: #65E4A3;
+    border: none;
+    transition: background-color 0.5s;
+}
+.inputss button a{
+    color: black;
+    transition: color 0.5s;
+}
+.inputss button:hover{
+    background-color: green;
+    
+}
+.inputss button:hover a{
+    color: white;
+}
+

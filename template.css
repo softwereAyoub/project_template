@@ -1,0 +1,279 @@
+@import "header.css";
+@import "container.css";
+@import "photos.css";
+@import "globalpara.css";
+@import "content.css";
+@import "customers.css";
+@import "rib.css";
+@import "footer.css";
+body{
+    
+    display: flex;
+    flex-direction: column;
+    overflow-x: hidden;
+}
+.first{
+    background-color: #0A2640;
+    height: 961px;
+}
+#map{
+width: 100%;
+height:652px;
+position: relative;
+margin-top: 106px;
+}
+#map h3{
+    position: absolute;
+    width: 100%;
+    color:red;
+    border: 2px solid red;
+    z-index: 999999;
+
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Plus Jakarta Sans';
+}
+.logos{
+ margin-top: 56px;
+ display: flex;
+ height: 93px;
+ justify-content: center;
+
+}
+header i::before{
+    display: none;
+}
+.conn{
+    display: flex;
+    gap: 22px;
+}
+@media  screen and (max-width:1224px){
+    nav ul{
+        flex-direction: row;
+        order: 0;
+        display: flex;
+     gap: 16px;
+    }
+
+    header{
+        display: flex;
+        justify-content: space-between;
+    }
+    header img{
+        order: 0;
+     
+    }
+
+ 
+
+.container h1,.container p{
+   
+    width: 706px;
+}
+.container h1{
+    font-size: 50px;
+}
+.logos img{
+max-width: 660px;
+}
+.photo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.photo .div1,.photo .div3{
+    align-items: center;
+    flex-direction: row;
+}
+
+.parag h2{
+    font-size: 30px;
+}
+.parag{
+   width: 90%;
+}
+.globalpara{
+    max-width: 640px;
+}
+.para{
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+}
+.para p{
+    max-width: 640px;
+ font-size: 18px
+}
+#map{
+    margin-top: 600px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.con{
+    margin-top: 400px;
+    padding: 0 20px;
+    margin-bottom: 200px;
+}
+.divcon2{
+    align-items: center;
+    flex-direction: column;
+    gap: 22px;
+}
+.divcon1{
+    padding-top: 90px;
+}
+
+.divcon1 h2{
+    font-size: 20px;
+}
+.cust img{
+    width: 90%;
+}
+.cust3{
+    width: 92%;
+}
+.cust2{
+    
+    align-items: center;
+    flex-direction: column;
+}
+.cust2 h3{
+    width: 95%;
+}
+.rib{
+   transform: scale(0.9);
+    max-width:100%;
+    margin: 0 auto;
+}
+.inputss input{
+    width: 230px;
+}
+footer{
+    padding: 0 20px;
+}
+}
+@media  screen and (max-width:1024px){
+
+    header i::before{
+        display: block;
+    }
+    nav ul{
+        flex-direction: column;
+        order: 0;
+        display: none;
+  width: 140px;
+    }
+    .divcon2{
+        align-items: center;
+        flex-direction: column;
+        gap: 22px;
+        margin-bottom: 400px;
+    }
+    .conn{
+        flex-direction: column;
+    }
+
+    header{
+        display: flex;
+      justify-content: flex-start;
+      
+    }
+    header img{
+        order: 2;
+       margin: 55px 0 0 0;
+       align-self: flex-start;
+    }
+    
+    nav{
+       width: 40%;
+       flex-direction: column;
+    }
+
+    header i{
+        padding: 8px 50px;
+        display: block;
+        color: white;
+font-size: 40px;
+    }
+.container h1,.container p{
+   
+    width: 706px;
+}
+.container h1{
+    font-size: 50px;
+}
+
+footer{
+    flex-direction: column;
+    gap: 80px;
+    align-items: center;
+}
+footer .div1 img{
+    width: 100px;
+    margin: 0 auto;
+    height: 100px;
+}
+footer div{
+    flex-direction: column;
+}
+}
+@media  screen and (max-width:768px) {
+
+ 
+
+
+    header i{
+        padding: 8px 50px;
+        display: block;
+        color: white;
+font-size: 40px;
+    }
+.container h1,.container p{
+   
+    width: 506px;
+}
+.container h1{
+    font-size: 30px;
+}
+
+.photo .div1,.photo .div3{
+
+    flex-direction: column;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+    align-items: center;
+}
+footer .div1 img{
+    width: 100px;
+    margin: 0 auto;
+    height: 100px;
+}
+footer div{
+    flex-direction: column;
+}
+footer .div3{
+    margin-bottom: 60px;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

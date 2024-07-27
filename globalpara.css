@@ -1,0 +1,36 @@
+.parag{
+    display: flex;
+    flex-direction: column;
+   align-items: flex-start;
+    font-size: 20px;
+    width: 892px;
+}
+.para{
+    display: flex;
+    flex-direction: column;
+   margin-top: 12px;
+   gap: 40px;
+    font-size: 20px;
+    width: 892px;
+}
+
+.parag h2{
+    font-size: 48px;
+    display: inline-block;
+    height: 124px;
+}
+.parag span,.parag p{
+    color: #777;
+}
+.parag p{
+    line-height: 160%;
+}
+.parag span{
+   height: 32px;
+
+}
+.globalPara{
+    display: flex;
+    justify-content: center;
+    margin-top: 96px;
+}
